@@ -11,8 +11,10 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello from Render!</title>
+    <title>Express via Render</title>
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    -->
     <script>
       setTimeout(() => {
         confetti({
@@ -52,8 +54,11 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from Render!
+      Express app via Render. 
     </section>
+    <div>
+      <img src="https://frederic-vw.github.io/slides/dgkn23/S002R02_avgref_t0500-0800_graph.gif" width="50%">
+    </div>
   </body>
 </html>
 `
